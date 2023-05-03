@@ -21,7 +21,7 @@ void f_arithmetic(void)
             break;
         
         case 2:
-            //subtraction
+            f_subtraction();
             break;
         
         case 3:
