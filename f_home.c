@@ -16,7 +16,7 @@ void f_home(void)
     switch(home)
     {
         case 1:
-            //arithmetic
+            f_arithmetic();
             break;
         
         case 2:

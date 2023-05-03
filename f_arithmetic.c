@@ -4,13 +4,15 @@
 void f_arithmetic(void)
 {
     int arithmetic;
-            printf("1 - addition\n");
-            printf("2 - subtraction\n");
-            printf("3 - multiplication\n");
-            printf("4 - division\n");
-            printf("5 - modulo\n");
-            printf("6 - back\n");
-            scanf("%d", &arithmetic);
+
+    printf("1 - addition\n");
+    printf("2 - subtraction\n");
+    printf("3 - multiplication\n");
+    printf("4 - division\n");
+    printf("5 - modulo\n");
+    printf("6 - back\n");
+    scanf("%d", &arithmetic);
+
     switch(arithmetic)
     {
         case 1:
@@ -34,7 +36,7 @@ void f_arithmetic(void)
             break;
 
         case 6:
-            void f_home(void);
+            f_home();
             break;
         
         default:
