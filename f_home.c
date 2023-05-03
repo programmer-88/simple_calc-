@@ -33,7 +33,7 @@ void f_home(void)
         
         default:
             printf("invalid!");
-            void f_home(void);
+            f_home();
 
     }
     printf("\n");

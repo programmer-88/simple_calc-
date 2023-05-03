@@ -11,12 +11,13 @@ void f_arithmetic(void)
     printf("4 - division\n");
     printf("5 - modulo\n");
     printf("6 - back\n");
+    printf("0 - quit\n");
     scanf("%d", &arithmetic);
 
     switch(arithmetic)
     {
         case 1:
-            //addition
+            f_addition();
             break;
         
         case 2:
@@ -38,9 +39,13 @@ void f_arithmetic(void)
         case 6:
             f_home();
             break;
+        case 0:
+            printf("Bye ;^)");
+            break;
         
         default:
         printf("invalid !");
+        f_arithmetic;
     }
 
 }
