@@ -10,7 +10,7 @@ void f_arithmetic(void)
     printf("3 - multiplication\n");
     printf("4 - division\n");
     printf("5 - modulo\n");
-    printf("6 - back\n");
+    printf("6 - home\n");
     printf("0 - quit\n");
     scanf("%d", &arithmetic);
 
@@ -25,11 +25,11 @@ void f_arithmetic(void)
             break;
         
         case 3:
-            //multiplication
+            f_multiplication();
             break;
         
         case 4:
-            //division
+            f_division();
             break;
         
         case 5:
@@ -37,6 +37,10 @@ void f_arithmetic(void)
             break;
 
         case 6:
+            //square
+            break;
+
+        case 7:
             f_home();
             break;
         case 0:
